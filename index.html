@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Rolex</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="header-top">
+                <div class="header-top__logo">
+                    <a href=""><img class="header__logo" src="./img/logo.png" alt="" srcset=""></a>
+                </div>
+                <div class="header-react">
+                    <div class="header__search">
+                        <ul class="list-header">
+                            <li class="search-box">
+                                <a class="icon-search" href=""><i class="fas fa-search"></i></a>
+                                <div class="header-box--search">
+                                    <input type="text" placeholder="Tìm kiếm...">
+                                    <a href=""><i class="fas fa-search"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href=""><i class="fas fa-user"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <ul class="menu">
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Sản phẩm hot</a></li>
+                    <li><a href="">Sale</a></li>
+                    <li><a href="">Đồng hồ nữ</a></li>
+                    <li><a href="">Đồng hồ nam</a></li>
+                    <li>
+                        <a href="">Brands</a>
+                        <i class="fas fa-angle-down"></i>
+                        <ul class="menu-sub_nab">
+                            <li><a href="">CITIZEN</a></li>
+                            <li><a href="">ROLEX</a></li>
+                            <li><a href="">CASIO</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                </ul>                
+            </div>
+        </div>
+        <div class="slide">
+            <div class="img-slider">
+                <img id = "img-js"src="./img/imager_1_23563_700.jpg" alt="">
+            </div>
+            <div class="text-slogan">
+                <p class="text-p">Dành riêng cho doanh nhân</p>
+                <h3 class="text-title">Đẳng cấp là mãi mãi</h3>
+                <p class="text-p">Bộ sưu tập các mẫu đồng hồ Rolex cổ điển gồm các kiểu dáng kết hợp những bí quyết của Rolex và những tiêu chuẩn cao nhât về sự hoàn hảo</p>
+                <button onclick= "hello()" class="img--button">Mua ngay</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body-img">
+                <div class="img-one">
+                    <img src="./img/rolex1.webp" alt="" srcset="">
+                    <div class="img__text-one">
+                        <h2 class="img-one__title img--title">ĐỒNG HỒ CỔ ĐIỂN</h2>
+                        <p>Phong cách trường tồn, có thể được nhận biết trong nháy mắt</p>
+                        <button class="img--button">Xem thêm</button>
+                    </div>
+                </div>
+                <div class="img-two">
+                    <div class="img__text-two">
+                        <h2 class="img-two__title img--title">BỘ SƯU TẬP NĂM 2022</h2>
+                        <button class="img--button">Xem thêm</button>
+                    </div>
+                    <div class="img-two__left">
+                        <img src="./img/Rolex_cosmograph_daytona.jpeg" alt="">
+                    </div>
+                    <div class="img-two__right">
+                        <img src="./img/dong-ho-rolex-nam-nu-chinh-hang-gia-bao-nhieu-danh-gia-chi-tiet.webp"alt="">
+                    </div>
+                </div>
+                <div class="img-three">
+                    <img src="./img/role2.jpg" alt="">
+                    <div class="img__text-one">
+                        <h2 class="img-three__title img--title">ĐỒNG HỒ CHẤT</h2>
+                        <p>Kết hợp hoàn hảo tính năng ưu việt và phong cách đẳng cấp</p>
+                        <button class="img--button">Xem thêm</button>
+                    </div>
+                </div>
+            </div>
+            <div class="body-product">
+                <div class="product-title">
+                    <p>360° COLLECTION</p>
+                    <div class="product-heading">
+                        <p>FEATURED</p> <p>PRODUCTS</p>
+                    </div>
+                </div>
+                <div class="product-list">
+                    <ul class="list-products">
+                        <li>
+                            <a href="">
+                                <img src="./img/pr1.jpg" alt="">
+                                <p>BULOVA MARINE STAR DIAMOND</p>
+                                <p class="product-money">23000$</p>                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/pr2.jpg" alt="">
+                                <p>BULOVA CORPORATION AUTOMATIC</p>
+                                <p class="product-money">23000$</p>                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/pr3.jpg" alt="">
+                                <p>MICHAEL KORS BRECKEN CHRONOGRAPH WATCH 44MM</p>
+                                <p class="product-money">23000$</p>                            
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-products">
+                        <li>
+                            <a href="">
+                                <img src="./img/pr4.jpg" alt="">
+                                <p>LONGINES MASTER WATCH 38.5MM</p>
+                                <p class="product-money">23000$</p>                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/pr5.jpg" alt="">
+                                <p>OMEGA SEAMASTER AQUA TERRA WATCH 34MM</p>
+                                <p class="product-money">23000$</p>                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/pr6.jpg" alt="">
+                                <p>OMEGA SEAMASTER 39MM</p>
+                                <p class="product-money">23000$</p>                            
+                            </a>
+                        </li>                    
+                    </ul>
+                </div>
+            </div>
+            <div class="review-product">
+                <div class="product-title">
+                    <p>A COMPANION FOR YA</p>
+                    <div class="product-heading">
+                        <p>SPECIAL</p> <p>EDITION</p>
+                    </div>
+                </div>
+                <div class="edition">
+                    <div class="review-edition review-edition-1">
+                        <ul>
+                            <li>
+                                <img src="./img/rv1.jpg" alt="">
+                            </li>
+                            <li class="info-edition">
+                                <h2 class="name-edition">
+                                    OMEGA DE VILLE PRESTIGE WATCH 39.5MM
+                                </h2>
+                                <div class="money-km">
+                                    <p>81,900,000 đ</p>
+                                    <p>11,900,000 đ</p>
+                                </div> 
+                                <ul class="list-care style-font">
+                                    <li>*Sản phẩm nhập khẩu chính hãng</li>
+                                    <li>*Vận chuyển miễn phí toàn quốc</li>
+                                    <li>*Giao hàng trong ngày</li>
+                                    <li>*Thanh toán sau khi nhận hàng</li>
+                                    <li>*Bảo hàng 5 năm tại Công ty</li>
+                                    <li>*Bảo hàng chính hãng toàn cầu</li>
+                                </ul>
+                                <p class="edition-code style-font">Mã: 71247</p>
+                                <p class="hashtag-edition style-font">Danh mục: Citizen, Đồng hồ nữ, Sale, Sản phẩm Hot</p>
+                                <button class="button-edition">ĐỌC TIẾP</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="review-edition review-edition-2">
+                        <ul>
+                            <li>
+                                <img src="./img/rv1.jpg" alt="">
+                            </li>
+                            <li class="info-edition">
+                                <h2 class="name-edition">
+                                    OMEGA DE VILLE PRESTIGE WATCH 39.5MM
+                                </h2>
+                                <div class="money-km">
+                                    <p>81,900,000 đ</p>
+                                    <p>11,900,000 đ</p>
+                                </div> 
+                                <ul class="list-care style-font">
+                                    <li>*Sản phẩm nhập khẩu chính hãng</li>
+                                    <li>*Vận chuyển miễn phí toàn quốc</li>
+                                    <li>*Giao hàng trong ngày</li>
+                                    <li>*Thanh toán sau khi nhận hàng</li>
+                                    <li>*Bảo hàng 5 năm tại Công ty</li>
+                                    <li>*Bảo hàng chính hãng toàn cầu</li>
+                                </ul>
+                                <p class="edition-code style-font">Mã: 71247</p>
+                                <p class="hashtag-edition style-font">Danh mục: Citizen, Đồng hồ nữ, Sale, Sản phẩm Hot</p>
+                                <button class="button-edition">ĐỌC TIẾP</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="review-edition review-edition-3">
+                        <ul>
+                            <li>
+                                <img src="./img/rv1.jpg" alt="">
+                            </li>
+                            <li class="info-edition">
+                                <h2 class="name-edition">
+                                    OMEGA DE VILLE PRESTIGE WATCH 39.5MM
+                                </h2>
+                                <div class="money-km">
+                                    <p>81,900,000 đ</p>
+                                    <p>11,900,000 đ</p>
+                                </div> 
+                                <ul class="list-care style-font">
+                                    <li>*Sản phẩm nhập khẩu chính hãng</li>
+                                    <li>*Vận chuyển miễn phí toàn quốc</li>
+                                    <li>*Giao hàng trong ngày</li>
+                                    <li>*Thanh toán sau khi nhận hàng</li>
+                                    <li>*Bảo hàng 5 năm tại Công ty</li>
+                                    <li>*Bảo hàng chính hãng toàn cầu</li>
+                                </ul>
+                                <p class="edition-code style-font">Mã: 71247</p>
+                                <p class="hashtag-edition style-font">Danh mục: Citizen, Đồng hồ nữ, Sale, Sản phẩm Hot</p>
+                                <button class="button-edition">ĐỌC TIẾP</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="body-colection">
+                <ul class="colection">
+                    <li class="colection_img">
+                        <img src="./img/Collection-1.jpg" alt="">
+                        <div class="text-colection">
+                            <p class="colection_name">Chronograph 100M</p>
+                            <p class="colection_title">Timers Villa</p>
+                        </div>
+                    </li>
+                    <li class="colection_img">
+                        <img src="./img/collection-img.jpg" alt="">
+                        <div class="text-colection">
+                            <p class="colection_name">Men’s Maiden</p>
+                            <p class="colection_title">A Friend of a Man</p>
+                        </div>
+                    </li>
+                    <li class="colection_img">
+                        <img src="./img/collection-3_.jpg" alt="">
+                        <div class="text-colection">
+                            <p class="colection_name">Thin Dial</p>
+                            <p class="colection_title">Complete Mechanical</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="body-blog">
+                <div class="product-title">
+                    <p>A COMPANION FOR YA</p>
+                    <div class="product-heading">
+                        <p>SPECIAL</p> <p>EDITION</p>
+                    </div>
+                </div>
+                <div class="blog-slide">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div class="blog-img">
+                                    <img src="./img/blog10.jpg" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <p class="blog-title">
+                                        DIGITAL JUMPING-SECONDS DISPLAY
+                                    </p>
+                                    <p class="blog-time">3 Tháng Mười Hai,2022</p>
+                                    <p class="blog-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing, sed do...
+                                    </p>
+                                    <button class="img--button">ĐỌC THÊM </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="blog-img">
+                                    <img src="./img/blog4.jpg" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <p class="blog-title">
+                                        A LUBRICANT-FREE WATCH FOR A..
+                                    </p>
+                                    <p class="blog-time">3 Tháng Mười Hai,2022</p>
+                                    <p class="blog-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing, sed do...
+                                    </p>
+                                    <button class="img--button">ĐỌC THÊM </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="blog-img">
+                                <img src="./img/blog12.jpg" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <p class="blog-title">
+                                        CREATORS OF THE MAN MADE WATCHES
+                                    </p>
+                                    <p class="blog-time">3 Tháng Mười Hai,2022</p>
+                                    <p class="blog-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing, sed do...
+                                    </p>
+                                    <button class="img--button">ĐỌC THÊM </button>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-content">
+                    <ul>
+                        <img src="./img/logo1.png" alt="">
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <p>070623402</p>
+                        </li>
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            <p>thanhanhynh@gmail.com</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-paper-plane"></i>
+                            <p>luuthanh</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="footer-heading">FOLLOW US</p>
+                        </li>
+                        <li>
+                            <p>Follow để không bỏ lỡ bất kì ưu đãi nào từ chúng tôi</p>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-telegram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="footer-heading">ĐĂNG KÝ</p>
+                        </li>
+                        <li>
+                            <p>Đăng kí để nhận được thông tin mới nhất từ chúng tôi</p>
+                        </li>
+                        <li>
+                            <input type="email" placeholder="Email">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var imgAni = document.getElementById('img-js');
+        setInterval(()=>{
+            imgAni.style.transform = 'scale(1.1)';
+        }, 1000) 
+    </script>
+</body>
+</html>
